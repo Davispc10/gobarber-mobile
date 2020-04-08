@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "gobarber-mobile",
+    "name": "DaveBarber",
     "slug": "gobarber-mobile",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ab59c1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +24,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.wymaze.gobarber",
+      "versionCode": 1
     }
   }
 }
